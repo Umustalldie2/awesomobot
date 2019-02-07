@@ -948,7 +948,7 @@ const card = new Command({
 
         if (/*card.ChargedPowerRadius !== 0 && */card.ChargedPowerRegen !== 0) {
 
-          embed.description += `Charged Power Regen: ${Math.round(card.ChargedPowerRegen * 100) / 100}\n\n`;
+          embed.description += `Charged Power Regen: ${Math.round(card.ChargedPowerRegen * 100)}% Per Second\n\n`;
         } else {
 
           embed.description += "\n";
